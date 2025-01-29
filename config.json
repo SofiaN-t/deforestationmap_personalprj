@@ -1,0 +1,17 @@
+{
+    "root_path": "C:/Users/user/Documents/PersonalProjects/code/deforestation_map",
+    "data_paths": {
+        "processed": {
+            "coffee_plots": "data/input/processed/processed_export_demo.geojson",
+            "amazon": "data/input/processed/amaz_gdf.geojson",
+            "radd": "data/input/processed/radd_gdf.geojson",
+            "intersection": "data/input/processed/intersection.csv"
+        },
+        "raw": {
+            "coffee_plots": "data/input/raw/export_demo.xlsx",
+            "amazon": "data/input/raw/perdida_de_bosque/TMAPB_Region_100K_2020_2022.shp",
+            "radd": "data/input/raw/10N_080W.tif"
+        }
+    }
+}
+

@@ -1,0 +1,7 @@
+venv/
+.fmt-progreso/
+data/input/raw
+*.html
+.env
+.vscode
+__pycache__
