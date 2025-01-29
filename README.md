@@ -3,33 +3,10 @@ This tool is the outcome of a Master Thesis and was delivered to an NGO foundati
 
 It consists of two main pages. The first one includes an interactive map visualising the different layers with filtering functionalities. The second page informs the user on intersections on a coffee farm basis via a tabular view. There is also a third auxiliary page that shares basic information on the alert datasets and points to the relevant websites while also explaining the basic functionality of the dashboard.
 
-# Prerequisites
-A python and a Git installations are required. 
+# Instalation
+It is advisable to make a dedicated virtual environment for this project, as there are special libraries used
 
-# Installation
-To properly setup the project, we suggest the initialisation of a Git repository and the creation of a virtual environment. It is advised to read through this section completely, before materialising the steps. A special mention to step no 6, which might imply an action before the previous steps. To be more specific:
-
-1. Extract the zip folder containing the project to a desired location.
-2. Open your command prompt and navigate to the directory where you extracted the zip folder. 
-3. Initialise a git repository, add the files and commit the changes.
-
-```bash
-cd <path/to/the/project_folder>
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-```
-
-4. Create a new Github repository.
-5. Link local repository to Github and push it to the remote.
-
-```bash
-git remote add origin <https://github.com/your-username/your-repository.git>
-git push -u origin main
-```
-
-6. Create and activate a virtual environment in your project directory.
+1. Create and activate a virtual environment in your project directory.
 
 ```bash
 python -m venv venv
@@ -39,13 +16,13 @@ python -m venv venv
 If you select to name your virtual environment under a different name, please make sure that you rename this in the .gitignore file accorsingly, before you make the repository.
 
 
-7. Install project dependencies
+2. Install project dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-You should now have a dedicated virtual environment for the project and a github repository to track the changes of the project, as they occur.
+You should now have a dedicated virtual environment for the project.
 
 # Structure
 When opening your project directory, this is the structure that you should encounter: 
